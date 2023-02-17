@@ -1,0 +1,105 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch Parse (Debug)",
+			"request": "launch",
+			"program": "/Users/yun/Documents/Unreal Projects/Parse/Binaries/Mac/UnrealGame-Mac-Debug.app/Contents/MacOS/UnrealGame-Mac-Debug",
+			"preLaunchTask": "Parse Mac Debug Build",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.1",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch Parse (DebugGame)",
+			"request": "launch",
+			"program": "/Users/yun/Documents/Unreal Projects/Parse/Binaries/Mac/UnrealGame-Mac-DebugGame.app/Contents/MacOS/UnrealGame-Mac-DebugGame",
+			"preLaunchTask": "Parse Mac DebugGame Build",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.1",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch Parse (Development)",
+			"request": "launch",
+			"program": "/Users/yun/Documents/Unreal Projects/Parse/Binaries/Mac/UnrealGame.app/Contents/MacOS/UnrealGame",
+			"preLaunchTask": "Parse Mac Development Build",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.1",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch Parse (Test)",
+			"request": "launch",
+			"program": "/Users/yun/Documents/Unreal Projects/Parse/Binaries/Mac/UnrealGame-Mac-Test.app/Contents/MacOS/UnrealGame-Mac-Test",
+			"preLaunchTask": "Parse Mac Test Build",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.1",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch Parse (Shipping)",
+			"request": "launch",
+			"program": "/Users/yun/Documents/Unreal Projects/Parse/Binaries/Mac/UnrealGame-Mac-Shipping.app/Contents/MacOS/UnrealGame-Mac-Shipping",
+			"preLaunchTask": "Parse Mac Shipping Build",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.1",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch ParseEditor (Debug)",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_5.1/Engine/Binaries/Mac/UnrealEditor-Mac-Debug.app/Contents/MacOS/UnrealEditor-Mac-Debug",
+			"preLaunchTask": "ParseEditor Mac Debug Build",
+			"args": [
+				"/Users/yun/Documents/Unreal Projects/Parse/Parse.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.1",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch ParseEditor (DebugGame)",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_5.1/Engine/Binaries/Mac/UnrealEditor-Mac-DebugGame.app/Contents/MacOS/UnrealEditor-Mac-DebugGame",
+			"preLaunchTask": "ParseEditor Mac DebugGame Build",
+			"args": [
+				"/Users/yun/Documents/Unreal Projects/Parse/Parse.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.1",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch ParseEditor (Development)",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_5.1/Engine/Binaries/Mac/UnrealEditor.app/Contents/MacOS/UnrealEditor",
+			"preLaunchTask": "ParseEditor Mac Development Build",
+			"args": [
+				"/Users/yun/Documents/Unreal Projects/Parse/Parse.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_5.1",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_5.1/Engine/Build/BatchFiles/RunUBT.bat",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=/Users/yun/Documents/Unreal Projects/Parse/Parse.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "internalConsole",
+			"internalConsoleOptions": "openOnSessionStart",
+			"stopAtEntry": false,
+			"cwd": "/Users/Shared/Epic Games/UE_5.1"
+		}
+	]
+}
